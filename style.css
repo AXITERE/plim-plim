@@ -76,6 +76,22 @@
    justify-content: center;
 }
 
-spam{
- color: #6C63FF
+.spam{
+   color: #6C63FF
+  }
+
+  .formulário{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.formulário_box{
+   width: 90%;
+   height: 60vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
