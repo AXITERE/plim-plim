@@ -95,3 +95,45 @@
    align-items: center;
    justify-content: center;
 }
+
+.formulário_questões{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.texto_motivacional{
+   width: 40%;
+   height: 100%;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.formulário_questões input{
+   width: 36vw;
+   height: 12vh;
+   border: 3px solid #6C63FF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 15px;
+}
+
+.formulário_questões input::placeholder{
+   font-size: 1.5vw;
+   font-weight: 700;
+   color: black;
+   padding-left: 2vw;
+}
+
+.enviar{
+   height: 60vh;
+   margin-top: 20vh;
+}
+
+.enviar button{
+   width: 36vw;
+
+}
